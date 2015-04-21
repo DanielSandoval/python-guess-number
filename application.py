@@ -1,3 +1,4 @@
 # Aqui escribe tu codigo
-
-print "Hello World"
+import random
+numero_random = random.randrange(1,21)
+print numero_random
