@@ -8,5 +8,7 @@ if numero_ingresado > numero_random:
 	print "you guessed to high, please try again"
 elif numero_ingresado < numero_random:
 	print "you guessed to low, please try again"
+elif numero_ingresado == numero_random:
+	print "you win!"
 
 print numero_random
